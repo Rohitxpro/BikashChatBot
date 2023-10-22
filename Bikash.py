@@ -9,13 +9,13 @@ import re
 
 API_ID = os.environ.get("API_ID", "26203690") 
 API_HASH = os.environ.get("API_HASH", "f6351fa89f59f92b983b2d80e9cd7b64") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6525377339:AAHfqn0fCZQ9v5sTNWoxtZBqXMp6m8ro0tc") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6525377339:AAHLvwDegRx_a8UW-aL2PiazjfchXV7vuos") 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://devilop:devilop123@devilserver.bhep18a.mongodb.net/?retryWrites=true&w=majority")
-BOT_IMAGE = os.environ.get("BOT_IMAGE", "https://graph.org/file/73666d6775bb0cbf55c02.jpg")
+BOT_IMAGE = os.environ.get("BOT_IMAGE", "https://graph.org/file/0667934baa70a917e94b1.jpg")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "none")
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "@JanviXRahul")
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "https://t.me/New_Devil_World")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/about_devil30")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "@New_Devil_World")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "@about_devil30")
 
 
 bot = Client(
